@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link" id="homeLink"><i class="fas fa-film"></i> MOVIEHEAVEN</a></li>            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="container" id="searchContainer">
+            <label for="searchInput">Search for a movie:</label>
+            <input type="text" class="container__input" id="searchInput" placeholder="Enter movie title...">
+            <button class="container__btn" id="searchBtn">Search</button>
+            <button class="container__btn container__btn--favorite" id="FavoriterButton">Favorites</button>
+        </section>
+        
+        <section class="container" id="favoritesContainer" style="display: none;">
+            <h2 class="container__title">Favorite Movies</h2>
+            <ul class="container__list" id="favoritesList"></ul>
+        </section>
+        
+        
+        
+        <section class="container" id="searchResultsContainer" style="display: none;">
+            <h2 class="container__title">Search Results</h2>
+            <ul class="container__list" id="searchResultsList"></ul>
+        </section>
+
+        <section class="container" id="trailerContainer">
+            <div class="trailer-info">
+                <h2 class="container__title">Featured today</h2>
+                <div class="video-container" id="trailerVideo"></div>
+                <div class="buttons">
+                    <button class="container__btn" id="prevTrailerBtn">Previous</button>
+                    <button class="container__btn" id="nextTrailerBtn">Next</button>
+                </div>
+            </div>
+            
+        </section>
+        
+
+        <section class="container" id="topMoviesContainer">
+            <h2 class="container__title">Top Picks</h2>
+            <ul class="container__list" id="topMoviesList"></ul>
+        </section>
+
+        <section class="container" id="movieInfoContainer"></section>
+    </main>
+
+    <footer class="footer"><p>By Linus Zackrisson</p></footer>
+
+    <script src="src/main.js" type="module"></script>
+    <script src="src/fetch.js" type="module"></script>
+    <script src="src/dom.js" type="module"></script>
+
+    
+  
+</body>    
+</html>
