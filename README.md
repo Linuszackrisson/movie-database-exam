@@ -1,4 +1,4 @@
-# Filmdatabas Examen
+# Filmdatabas Examination
 
 ## Funktioner
 - Visar 5 slumpmässiga trailers vid sidans laddning.
