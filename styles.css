@@ -162,7 +162,7 @@ h2 {
     height: 100%;
 }
 
-.favoriteBtn {
+.favoriteBtn, button {
     padding: 8px 16px;
     font-size: 14px;
     background-color: #ff7f50;

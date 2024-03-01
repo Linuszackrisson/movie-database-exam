@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
 
                 const backButton = document.createElement('button');
-                backButton.textContent = 'Back to Search';
+                backButton.textContent = 'Hide movie details';
                 backButton.addEventListener('click', function() {
                     searchResultsContainer.style.display = 'block';
                     movieInfoContainer.style.display = 'none';
