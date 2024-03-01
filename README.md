@@ -1,8 +1,8 @@
 # Filmdatabas Examination
 
 ## Funktioner
-- Visar 5 slumpmässiga trailers vid sidans laddning.
-- Bläddra mellan trailers med två knappar (Jesper API).
+- Visar 5 slumpmässiga trailers vid sidans laddning (Jesper API).
+- Bläddra mellan trailers med två knappar .
 - Visar topp 20 filmer från IMDB (Jespers API).
 - Sökfunktion med OMDB API.
 - Detaljerad filminformation vid klick på kort.
